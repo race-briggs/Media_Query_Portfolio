@@ -141,3 +141,44 @@ textarea {
   margin-right: auto;
   float: left;
 }
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 25px;
+    width: 40%;
+  }
+  li {
+    width: 70px;
+  }
+  a {
+    font-size: 12px;
+    width: 20px;
+  }
+  .section-title {
+    width: 100%;
+    text-align: center;
+  }
+  .portfolio-img {
+    width: 100%;
+    height: auto;
+  }
+  .profile-img {
+    width: 100%;
+    height: auto;
+  }
+}
