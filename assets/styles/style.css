@@ -94,8 +94,14 @@ footer {
 
 .profile-img {
   border-radius: 50%;
-  float: left;
+  margin: auto;
   padding: 20px;
+  text-align: center;
+}
+
+.img-holder {
+  margin: auto;
+  text-align: center;
 }
 
 .clearfix::after {
@@ -142,7 +148,6 @@ textarea {
   height: 150px;
   margin-left: auto;
   margin-right: auto;
-  float: left;
 }
 
 .linkedin, .github, .resume {
